@@ -2,7 +2,7 @@
 
 body { padding: 2em; }
 
-a { color: blue; }
+a { color: rgb(62, 47, 47); }
 em { font-style: italic; }
 strong { font-weight: bold; }
 
@@ -12,4 +12,22 @@ ul,
 figure {
 	display: grid;
 	gap: 1em;
+}
+h1{
+	color: rgb(62, 47, 47);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Abhaya Libre', serif;
+}
+.channel-title{
+	border-bottom:solid 1.5px rgb(62, 47, 47);
+	
+}
+.avatar{
+	border-radius: 360px; 
+	border-style:solid;
+    border-color: rgb(62, 47, 47);
+    border-width: 1px;
+    width: 180px;
+    height: 40px;
 }
