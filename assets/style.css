@@ -10,24 +10,144 @@ body,
 section,
 ul,
 figure {
-	display: grid;
+	display: flex;
+    flex-wrap: wrap;
 	gap: 1em;
+}
+body{
+	background-image: url();
 }
 h1{
 	color: rgb(62, 47, 47);
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Abhaya Libre', serif;
+	text-align: center;
 }
-.channel-title{
+
+#nav{
 	border-bottom:solid 1.5px rgb(62, 47, 47);
-	
+	width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	text-align: center;
+}
+#channel-owner{
+	font-family: 'Abhaya Libre', serif;
+	text-align: center;
+
 }
 .avatar{
-	border-radius: 360px; 
+	text-align: center;
+	border-radius: 80%; 
 	border-style:solid;
     border-color: rgb(62, 47, 47);
     border-width: 1px;
-    width: 180px;
-    height: 40px;
+	width: 60%;
+	display: flex;
+    flex-wrap: wrap;
+	text-align: center;
+	
 }
+
+#audio-embed-block{
+	border: solid;
+	border-color: rgb(62, 47, 47);
+    border-width: 1px;
+}
+#audio-file-block{
+	border: solid;
+	border-color: rgb(62, 47, 47);
+    border-width: 1px;
+}
+#image-block{
+	border: solid;
+	border-color: rgb(62, 47, 47);
+    border-width: 1px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center; 
+    margin: 0 auto; 
+    justify-content: center;
+    
+}
+.flex{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 1%;
+   
+}
+
+
+h2{
+    font-size: 50px;
+    font-family: 'Abhaya Libre', serif;
+	color: rgb(62, 47, 47);
+}
+h3{
+    font-size: 30px;
+}
+h4{font-size: 12px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+
+.container:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    opacity: 1;
+    
+  }
+  
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+    
+    
+
+
+.flex-content{ 
+      
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; 
+    width: 500px; 
+    justify-content: center; 
+    height: 500px;
+	border: solid;
+	gap: 2em;
+	border-color: rgb(62, 47, 47);
+
+
+
+}
+.container{
+	width: 500px;
+	height: 350px;
+
+}
+
+
+
+
+
